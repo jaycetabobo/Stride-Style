@@ -7,13 +7,10 @@ function HomeInfo() {
     <article className="home-info">
       <div className="info-txt">
         <h2>
-          Experience the height of fashion with our exquisite designer pieces.
+          Step into style with our exclusive collection of sneakers and footwear.
         </h2>
         <p>
-          Where style, sophistication, exclusivity is the forefront of our
-          collection. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Repellat quaerat nostrum quia nam earum, libero, expedita impedit
-          delectus provident quo eveniet.
+          Discover the perfect blend of comfort, design, and performance with our curated selection of shoes. From classic kicks to the latest trends, we've got something for every sneaker enthusiast. Elevate your game with shoes that are built for both fashion and function.
         </p>
       </div>
       <button className="explore-clothing_btn">
