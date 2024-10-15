@@ -18,7 +18,7 @@ function OrderSummary() {
       <div className="order-summary">{allSoloProducts}</div>
       <div className="order-total solo-bill">
         <p>Total</p>
-        <span>${totalPrice.toFixed(2)}</span>
+        <span>₱ {totalPrice.toFixed(2)}</span>
       </div>
     </div>
   );
@@ -30,7 +30,7 @@ function SoloBill({ product }) {
       <p>
         <b>{product.qty}</b> * <b>{product.title}</b>
       </p>
-      <span>${(product.qty * product.price).toFixed(2)}</span>
+      <span>₱{(product.qty * product.price).toFixed(2)}</span>
     </div>
   );
 }

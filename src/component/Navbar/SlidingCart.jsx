@@ -86,7 +86,7 @@ function CartProducts({ product, addProductQuantity, removeFromCart }) {
         </p>
       </div>
       <p className="cart-product_price">
-        ${(product.price * product.qty).toFixed(2)}
+        ₱ {(product.price * product.qty).toFixed(2)}
       </p>
       <span className="cart-product_x" onClick={removeProduct}>
         <X size="16px" />
@@ -103,7 +103,7 @@ function CartCheckOut({ cart, toggleShowCart }) {
   return (
     <div className="cart-checkout_container">
       <h3>Checkout</h3>
-      <p>${totalPrice.toFixed(2)}</p>
+      <p>₱ {totalPrice.toFixed(2)}</p>
       <Link to="checkout" onClick={toggleShowCart}>
         Go to Checkout
       </Link>

@@ -40,8 +40,8 @@ const products = [
     {
         id: 5,
         title: 'Classic Air Force-Style Sneakers',
-        price: '3,200',
-        category: 'Men',
+        price: '3200',
+        category: 'Women',
         description: 'These classic sneakers feature a sleek and minimalist design in a neutral beige and white color palette. With a timeless silhouette and durable construction, these shoes offer both style and comfort, suitable for everyday wear. The subtle yet elegant look makes them perfect for any casual outfit or streetwear ensemble.',
         image: airforcesneaker
     }
