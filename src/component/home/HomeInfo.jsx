@@ -16,6 +16,20 @@ function HomeInfo() {
       <button className="explore-clothing_btn">
         <Link to="explore/all">Discover Our Products</Link>
       </button>
+      <div className="info-txt2">
+        <p>
+          Contact Us:
+        </p>
+        <p>
+          Email: neriandrew8@gmail.com
+        </p>
+        <p>
+          Address: Brgy.10 Yacapin Burgos Street, CDO
+        </p>
+        <p>
+          Phone: 09754958386
+        </p>
+      </div>
     </article>
   );
 }
